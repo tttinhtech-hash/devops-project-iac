@@ -1,0 +1,63 @@
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/tfplan*
+**/*.tfvars
+!terraform.tfvars.example
+
+# AWS
+**/.aws/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Logs
+*.log
+logs/
+
+# Secrets & Keys
+**/secrets/
+**/*.pem
+**/*.key
+**/*.crt
+**/secret*.yaml
+**/credentials*.yaml
+
+# Java/Maven
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/dependency-reduced-pom.xml
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Node
+**/node_modules/
+**/npm-debug.log
+
+# Docker
+**/.dockerignore
+
+# Build
+**/dist/
+**/build/
+**/out/
+
+# Helm
+**/charts/*.tgz
+
+# Misc
+*.tmp
+*.cache
